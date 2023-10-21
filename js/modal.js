@@ -1,3 +1,4 @@
+import { AlertError } from "./alert-error.js"
 import { inputHeight } from "./script.js"
 import { inputWeight } from "./script.js"
 

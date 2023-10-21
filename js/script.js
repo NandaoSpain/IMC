@@ -20,6 +20,8 @@ form.onsubmit = function(e) {
         AlertError.open()
         return;
     } 
+
+
     
     AlertError.close() 
 
@@ -27,3 +29,5 @@ form.onsubmit = function(e) {
     displayResulMessage(result)
 }
 
+inputWeight.oninput = () => AlertError.close()
+inputHeight.oninput = () => AlertError.close()
