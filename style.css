@@ -182,4 +182,12 @@ form button:hover {
     form button {
         width: 70%;
     }
+
+    .modal-wrapper h2 {
+        font-size: 2rem;
+    }
+
+    .modal-wrapper button {
+        margin-top: -17px;
+    }
 }
