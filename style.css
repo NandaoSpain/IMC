@@ -166,6 +166,10 @@ form button:hover {
 }
 
 @media screen and (max-width: 425px) {
+    .container {
+        width: 100vw;
+    }
+    
     .card{
         max-width: 375px;
         padding: 1.5rem;
@@ -175,12 +179,8 @@ form button:hover {
         font-size: 2.5rem;
     }
 
-    form input {
-        width: 70%;
-    }
-
-    form button {
-        width: 70%;
+    form {
+        width: 20rem;
     }
 
     .modal-wrapper h2 {
