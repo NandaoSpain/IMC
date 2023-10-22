@@ -164,3 +164,14 @@ form button:hover {
     transform: translateY(-30px);
     transition: transform 0.5s;
 }
+
+@media screen and (max-width: 425px) {
+    .card{
+        max-width: 375px;
+        padding: 1.5rem;
+    }
+    
+    .title {
+        font-size: 2.5rem;
+    }
+}
